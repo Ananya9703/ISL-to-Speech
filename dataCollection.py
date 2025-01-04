@@ -12,7 +12,7 @@ face_mesh = mp_face.FaceMesh(min_detection_confidence=0.5, min_tracking_confiden
 mp_drawing = mp.solutions.drawing_utils
 
 # Data collection parameters
-DATA_PATH = 'gesture_data'  # Path to save data
+DATA_PATH = 'data_real_time'  # Path to save data
 GESTURES = ["Hello", "Bye", "How are you", "I am fine", "Thank you", "Indian", "Sign", "Language", "Woman", "Yesterday", "Today", "Tomorrow", "Swim", "I"]  # List of gestures
 START_COOLDOWN = 5  # Cooldown in seconds at the start for the first gesture
 FRAMES_PER_GESTURE = 60  # Number of frames to collect per gesture
