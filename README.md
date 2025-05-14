@@ -1,1 +1,5 @@
 # ISL-to-Speech
+
+This is a real-time, vision-based system for Indian Sign Language (ISL) recognition and translation, aimed at enhancing communication between the deaf community and non-signers. The system combines a CNN-LSTM archi-tecture for static gesture recognition, achieving an accuracy of 98.47% and introduces GestureNet, a bidirectional LSTM model trained on a custom dy-namic gesture dataset, which attains 96.83% recognition accuracy. Addition-ally, a Generative AI framework is integrated to convert recognized gestures into semantically coherent and contextually appropriate sentences. By em-phasizing real-world applicability and high recognition performance, the pro-posed system advances sustainable and accessible communication technolo-gies, with potential impact in education, public services, and digital inclu-sion, particularly in developing regions.
+
+We have also written a paper that has been ACCEPTED for oral presentation in ICT4SD 2025, that explains the system in detail. This paper has been added for reference.
